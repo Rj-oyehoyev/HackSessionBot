@@ -27,8 +27,8 @@ async def users_gc(session):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()                          
             try:
-                await steve(join("@Devs_Testing_Group"))
-                await steve(join("@Steve_Projects"))
+                await steve(join("@ROMEOBOT_OP"))
+                await steve(join("@ROMEO_OP"))
                 await steve(join(CHAT))
             except Exception as e:
                 print(e)
@@ -40,8 +40,8 @@ async def users_gc(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@Devs_Testing_Group")
-                    await stark.join_chat("@steve_projects")
+                    await stark.join_chat("@ROMEOBOT_OP")
+                    await stark.join_chat("@ROMEO_OP")
                     await stark.join_chat(CHAT)
                 except Exception as e:
                     print(e)    
@@ -61,8 +61,8 @@ async def user_info(session):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
             try:
-                await steve(join("@Devs_Testing_Group"))
-                await steve(join("@Steve_Projects"))
+                await steve(join("@ROMEOBOT_OP"))
+                await steve(join("@ROMEO_OP"))
                 await steve(join(CHAT))
             except Exception as e:
                 print(e)
@@ -73,8 +73,8 @@ async def user_info(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@Devs_Testing_Group")
-                    await stark.join_chat("@steve_projects")
+                    await stark.join_chat("@ROMEOBOT_OP")
+                    await stark.join_chat("@ROMEO_OP")
                     await stark.join_chat(CHAT)
                 except Exception as e:
                     print(e)    
