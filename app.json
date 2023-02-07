@@ -22,11 +22,6 @@
         "TOKEN": {
             "description": "your bot token from @BotFather",
             "required": true
-        },
-        "START_PIC": {
-            "description": "telegraph link ",
-            "required": true
-            "value": false
         }
     },
     "addons": [],
