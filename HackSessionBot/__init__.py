@@ -39,7 +39,7 @@ async def HackSessionBot():
     header = Table(show_header=True, header_style="bold green")
     header.add_column(LOG_TEXT)
     LOG.print(header)
-    LOG.print(f"[bold cyan]{ART}")
+    LOG.print(f"[bold cyan]𝐂𝐑𝐄𝐀𝐓𝐎𝐑 ❥︎𝕾🅡︎🅐︎🅙︎𝕾...")
     LOG.print("[bold yellow]sᴛᴀʀᴛɪɴɢ ʏᴏᴜʀ ʙᴏᴛ ɴᴏᴡ.......")
     await app.start()    
     
